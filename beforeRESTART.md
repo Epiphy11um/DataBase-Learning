@@ -45,3 +45,4 @@ docker daemon看日志没问题
 
 docker client就是连不上
 ## 5.重装系统
+我受不了了
