@@ -93,3 +93,11 @@ python3 --version
 
 可以参考以下文章：
 [ssh安装和配置Ubuntu](https://www.cnblogs.com/Super-why/p/15661862.html)
+
+## 5.配置FastAPI
+
+参考一下教程：[FastAPI](https://www.runoob.com/fastapi/fastapi-tutorial.html)
+
+在使用FastAPI进行第一个应用的创建时，我发现在SSH或者服务器端创建端口后，并不能实现两个设备的互通，不知道是什么问题，目前这个问题还没有解决，期待后续能够解决。
+
+已经尝试过把`host`调整为`0.0.0.0`，依然不可以，非常奇特。
