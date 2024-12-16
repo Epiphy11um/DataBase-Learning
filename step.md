@@ -78,6 +78,20 @@ python3 --version
 
 当然如果您有能力，可以选择给docker挂代理的方式，比如使用`clash`等软件，这里就不赘述了
 
+### 一些指令
+
+每次重启之后，如果没有设置一些配置，docker的一些功能并没有启动
+
+这个时候就需要用到一些指令
+
+`systemctl status docker`:查询docker的状态
+
+`docker ps -a` 列出docker所有的容器
+
+`docker start <容器ID>` 打开某个容器
+
+`docker exec -it <容器ID>` 进入某个正在运行的容器
+
 ## 3.数据库可视化
 
 我选用的是HeidiSQL进行可视化，当然navicat、MySQL workbench都是可以的
