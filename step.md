@@ -90,7 +90,7 @@ python3 --version
 
 `docker start <容器ID>` 打开某个容器
 
-`docker exec -it <容器ID>` 进入某个正在运行的容器
+`docker exec -it <容器ID> /bin/bash` 进入某个正在运行的容器
 
 ## 3.数据库可视化
 
